@@ -145,7 +145,7 @@ Slack API には [RTM API](https://api.slack.com/rtm) の対応やOAuth2での�
 
 2. `main.gs` に以下のコードを書く
 
-    ```
+    ```js:main.gs
     function myFunction() {
       var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
       var sheet = spreadsheet.getSheetByName("リスト");
@@ -240,3 +240,12 @@ Emoji One Style はカツ丼というよりは点心な印象。
 Emoji は作る企業や国によって
 かなり印象が違うのでアイコンは注意して選ぶとよさそうです。
 もしくは、新しく Emoji を登録して利用すれば解決します。
+
+# おわりに
+
+`おわりに` を呼んでくれた方へ。
+こんな読み応えのない文章に最後までお付き合いしていただきありがとうございます。
+次に書く機会があれば、 OpenCV を使って何か面白いものでも作ってみようかなと考えています。
+期待せずに待っていてください。
+
+明日(16日目)の [Supership株式会社 Advent Calendar 2016 - Qiita](http://qiita.com/advent-calendar/2016/supership) は @rei-m さんです。
